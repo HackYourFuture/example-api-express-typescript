@@ -18,6 +18,6 @@ Users API listening on port 3000
 
 In your browser, go to [http://localhost:3000](http://localhost:3000)
 
-This should show an empty array `[]`.
+This should show a friendly message :). 
 
 Other methods, like POST and PATCH and DELETE can only be made from either [Postman](https://www.getpostman.com) or from your Angular application.
