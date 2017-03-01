@@ -25,11 +25,12 @@ Other methods, like POST and PATCH and DELETE can only be made from either [Post
 
 ## Possible requests and example response
 Response body:
-### GET `/`
+### GET `/` -
+Response - 200 - Body:
 ```{"message": "Users API up and running!"}```
 
 ### GET `/v1/users`
-Response body:
+Response - 200 - Body:
 ```
 [
   {
