@@ -77,7 +77,9 @@ Request body:
 ```
 
 Response (if user exists in database) - 204 - Body:
-```(empty)```
+```
+(empty)
+```
 
 Response (if user does not exist in database) - 404 - Body:
 ```{"Reason": "That user does not exist"```
