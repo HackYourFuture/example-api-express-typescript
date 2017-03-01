@@ -14,7 +14,7 @@ This should result in something like:
 Users API listening on port 3000
 ```
 
-*!KEEP THIS TAB OPEN*
+*!KEEP THIS TAB OPEN! it will wait for your requests* 
 
 In your browser, go to [http://localhost:3000](http://localhost:3000)
 
