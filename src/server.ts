@@ -38,4 +38,11 @@ function onListening(): void {
   let addr = server.address();
   let bind = (typeof addr === 'string') ? `pipe ${addr}` : `port ${addr.port}`;
   console.log(`Users API listening on ${bind}`);
+  console.log(`Possible endpoints you can now access:
+GET    /         - api status
+GET    /v1/users - return all users
+POST   /v1/users - create new (201 for success, returns complete new document)
+PATCH  /v1/users - update existing user (204 for success, 404 for user not found)
+DELETE /v1/users - delete existing user (204 for success, 404 for user not found)
+`);
 }
