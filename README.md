@@ -82,7 +82,9 @@ Response (if user exists in database) - 204 - Body:
 ```
 
 Response (if user does not exist in database) - 404 - Body:
-```{"Reason": "That user does not exist"```
+```
+{"Reason": "That user does not exist"
+```
 
 ### DELETE `/v1/users/B1w2s30z2L3n0Jrj` 
 Request body:
@@ -93,7 +95,11 @@ Request body:
 ```
 
 Response (if user exists in database) - 204 - Body:
-```(empty)```
+```
+(empty)
+```
 
 Response (if user does not exist in database) - 404 - Body:
-```{"Reason": "That user does not exist"```
+```
+{"Reason": "That user does not exist"
+```
